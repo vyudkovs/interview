@@ -12,7 +12,9 @@ your robot is harvesting fruits from a tree.  trunk and branches are denoted by 
 your robot cannot jump, fly or drop.  it can only move alongside the tree up and down the branches.
 your job is to keep track of how much the fruits weigh.
 
-
+Steps:
+1.  Use the data file to create a tree
+2.  Complete parse tree function to determine the total weight.
 
 Input file format: every line represents a single branch
 
@@ -24,12 +26,15 @@ All following positions are children weights, say x total where 0 represents ano
 
 Next x line(s) represents all children of a current line.  Once all children are accounted for we go on to next branch.  Example
 
+Input 
 0, -1, 0, 2
 1, 0, 0, 0
 2, 1, 10
 3, 1, 11
- 
 
+Output: 4
+
+Explaining input:
 0, -1, 0, 2 – id 0, parent id -1 which is undefined, has two children one branch (0) and one fruit with weight of 2
 
 1, 0, 0, 0 – id 1, parent 0, two children branches
