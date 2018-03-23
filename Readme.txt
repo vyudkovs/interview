@@ -32,7 +32,7 @@ Input
 2, 1, 10
 3, 1, 11
 
-Output: 4
+Output: 23
 
 Explaining input:
 0, -1, 0, 2 – id 0, parent id -1 which is undefined, has two children one branch (0) and one fruit with weight of 2
